@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: #eee;
+  color: #708090;
+}
+
+.icon-1x {
+  font-size: 24px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-primary,
+a.text-primary:focus,
+a.text-primary:hover {
+  color: #00adbb !important;
+}
+
+.text-black,
+.text-hover-black:hover {
+  color: #000 !important;
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler .fa-bars {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler .fa-bars {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
